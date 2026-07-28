@@ -7,7 +7,7 @@ SurveyJS is a set of JavaScript components that allow you and your users to buil
 - [SurveyJS PDF Generator](https://surveyjs.io/pdf-generator/documentation/overview)
 - [SurveyJS Dashboard](https://surveyjs.io/dashboard/documentation/overview)
 
-> SurveyJS UI components are rendered on the client (`client:only="vue"`), similar to the [Next.js](https://github.com/surveyjs/surveyjs-nextjs) and [Nuxt](https://github.com/surveyjs/surveyjs-nuxt) templates.
+> SurveyJS UI components use `client:only="vue"` because Creator/Dashboard touch browser APIs during prerender (`navigator` / `document`).
 >
 > This template uses SurveyJS **v3** (`3.0.0-beta.8`).
 
