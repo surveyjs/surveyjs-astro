@@ -1,0 +1,8 @@
+---
+import Layout from '../layouts/Layout.astro'
+import PdfExport from '../components/PdfExport.vue'
+---
+
+<Layout title="PDF Generator | SurveyJS + Astro">
+  <PdfExport client:only="vue" />
+</Layout>

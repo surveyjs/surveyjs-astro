@@ -1,0 +1,8 @@
+---
+import Layout from '../layouts/Layout.astro'
+import DashboardPanel from '../components/DashboardPanel.vue'
+---
+
+<Layout title="Dashboard | SurveyJS + Astro">
+  <DashboardPanel client:only="vue" />
+</Layout>
