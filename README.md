@@ -8,6 +8,8 @@ Build forms and surveys in Astro with SurveyJS. This quickstart template demonst
 - [SurveyJS PDF Generator](https://surveyjs.io/pdf-generator/documentation/overview)
 
 > SurveyJS UI components use `client:only="vue"` because Survey Creator and Dashboard touch browser APIs during prerender (`navigator` / `document`).
+>
+> This template uses SurveyJS **v3** (`^3.0.0`).
 
 ## Run the Application
 
@@ -34,7 +36,7 @@ This template covers most basic use cases. You can find code examples for them i
 - Visualize survey results
   - As charts
     - [data/dashboard_data.js](data/dashboard_data.js)
-    - [src/components/DashboardPanel.vue](src/components/DashboardPanel.vue)
+    - [src/components/Dashboard.vue](src/components/Dashboard.vue)
   - As a table
     - [data/dashboard_data.js](data/dashboard_data.js)
     - [src/components/DashboardTabulator.vue](src/components/DashboardTabulator.vue)
