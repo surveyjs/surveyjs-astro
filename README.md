@@ -9,7 +9,7 @@ SurveyJS is a set of JavaScript components that allow you and your users to buil
 
 > SurveyJS UI components use `client:only="vue"` because Creator/Dashboard touch browser APIs during prerender (`navigator` / `document`).
 >
-> This template uses SurveyJS **v3** (`3.0.0-beta.8`).
+> This template uses SurveyJS **v3** (`3.0.0`).
 
 ## Run the application
 
@@ -36,7 +36,7 @@ This template covers most basic use cases. You can find code examples for them i
 - Visualize survey results
   - As charts
     - [data/dashboard_data.js](data/dashboard_data.js)
-    - [src/components/DashboardPanel.vue](src/components/DashboardPanel.vue)
+    - [src/components/Dashboard.vue](src/components/Dashboard.vue)
   - As a table
     - [data/dashboard_data.js](data/dashboard_data.js)
     - [src/components/DashboardTabulator.vue](src/components/DashboardTabulator.vue)
