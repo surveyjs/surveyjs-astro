@@ -14,7 +14,6 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/'
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta
       name="description"
@@ -24,9 +23,11 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/'
     <title>{title}</title>
   </head>
   <body>
-    <AppHeader client:load currentPath={currentPath} />
-    <main>
-      <slot />
-    </main>
+    <div class="app">
+      <AppHeader client:load currentPath={currentPath} />
+      <main>
+        <slot />
+      </main>
+    </div>
   </body>
 </html>
