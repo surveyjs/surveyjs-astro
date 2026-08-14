@@ -1,6 +1,6 @@
 # SurveyJS + Astro Quickstart Template
 
-SurveyJS is a set of JavaScript components that allow you and your users to build surveys / forms, store them in your database, and visualize survey results for data analysis. This quick start template uses [Astro](https://astro.build/) with [Vue islands](https://docs.astro.build/en/guides/integrations-guide/vue/) and the following SurveyJS components:
+Build forms and surveys in Astro with SurveyJS. This quickstart template demonstrates how to add a drag-and-drop form builder to an [Astro](https://astro.build/) application using [Vue islands](https://docs.astro.build/en/guides/integrations-guide/vue/), render dynamic forms, export surveys to PDF, and visualize survey results with charts and tables using the following SurveyJS components:
 
 - [SurveyJS Form Library](https://surveyjs.io/form-library/documentation/overview)
 - [Survey Creator / Form Builder](https://surveyjs.io/survey-creator/documentation/overview)
